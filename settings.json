@@ -1,0 +1,60 @@
+{
+  // Configura tamanho e família da fonte
+  "editor.fontSize": 14,
+  "editor.lineHeight": 19,
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": false,
+
+  // Define o tema do VSCode
+  "workbench.colorTheme": "Material Theme High Contrast",
+
+  // Aplica um sinal visual na esquerda da linha selecionada
+  "editor.renderLineHighlight": "gutter",
+
+  // Aumenta a fonte do terminal
+  "terminal.integrated.fontSize": 14,
+
+  "eslint.autoFixOnSave": true,
+  "eslint.validate": [
+    {
+    "language": "javascript",
+    "autoFix": true
+    },
+    {
+    "language": "javascriptreact",
+    "autoFix": true
+    },
+    {
+    "language": "typescript",
+    "autoFix": true
+    },
+    {
+    "language": "typescriptreact",
+    "autoFix": true
+    }
+  ],
+
+  "files.trimTrailingWhitespace": true,
+
+  // Define o tema dos ícones na sidebar
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.startupEditor": "newUntitledFile",
+  "editor.tabSize": 2,
+  "window.zoomLevel": 0,
+  "git.ignoreMissingGitWarning": true,
+
+  // Live Sass
+  "liveSassCompile.settings.formats":[
+    {
+      "format": "compact",
+      "extensionName": ".css",
+      "savePath": null
+    }
+  ],
+  "liveSassCompile.settings.excludeList": [
+    "**/node_modules/**",
+    ".vscode/**"
+  ],
+  "liveSassCompile.settings.generateMap": false
+
+}
