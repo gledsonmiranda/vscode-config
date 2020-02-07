@@ -1,18 +1,16 @@
 {
   // Configura tamanho e família da fonte
   "editor.fontSize": 14,
-  "editor.lineHeight": 19,
+  "editor.lineHeight": 20,
   "editor.fontFamily": "Fira Code",
   "editor.fontLigatures": false,
 
-  // Define o tema do VSCode
-  "workbench.colorTheme": "Material Theme High Contrast",
-
   // Aplica um sinal visual na esquerda da linha selecionada
   "editor.renderLineHighlight": "gutter",
+  "editor.renderWhitespace": "selection",
 
   // Aumenta a fonte do terminal
-  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.fontSize": 13,
 
   "eslint.autoFixOnSave": true,
   "eslint.validate": [
@@ -40,21 +38,38 @@
   "workbench.iconTheme": "material-icon-theme",
   "workbench.startupEditor": "newUntitledFile",
   "editor.tabSize": 2,
-  "window.zoomLevel": 0,
+  "window.zoomLevel": 0.3,
   "git.ignoreMissingGitWarning": true,
 
+  //Theme
+  "workbench.colorTheme": "One Dark Pro",
+  "oneDarkPro.vivid": true,
+  "oneDarkPro.editorTheme": "Onedark Pro",
+
   // Live Sass
-  "liveSassCompile.settings.formats":[
-    {
-      "format": "compact",
-      "extensionName": ".css",
-      "savePath": null
-    }
-  ],
   "liveSassCompile.settings.excludeList": [
     "**/node_modules/**",
     ".vscode/**"
   ],
-  "liveSassCompile.settings.generateMap": false
+  "liveSassCompile.settings.generateMap": false,
 
+  "files.associations": {
+    "*.template": "liquid"
+  },
+
+  "emmet.includeLanguages": {
+    "liquid": "html"
+  },
+
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+
+  "editor.occurrencesHighlight": false,
+  "editor.matchBrackets": "near",
+  "editor.acceptSuggestionOnEnter": "off",
+  "todo-tree.general.tags": [
+    "TODO",
+    "QUESTION"
+  ],
 }
