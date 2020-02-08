@@ -57,6 +57,10 @@
     "*.template": "liquid"
   },
 
+  //Emmet
+  "emmet.includeLanguages": {
+    "javascript": "jsx",
+  },
   "emmet.includeLanguages": {
     "liquid": "html"
   },
@@ -64,10 +68,11 @@
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
   },
-
-  "editor.occurrencesHighlight": false,
   "editor.matchBrackets": "near",
   "editor.acceptSuggestionOnEnter": "off",
+  "editor.foldingHighlight": false,
+  "editor.occurrencesHighlight": false,
+
   "todo-tree.general.tags": [
     "TODO",
     "QUESTION"
