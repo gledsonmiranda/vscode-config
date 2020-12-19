@@ -1,80 +1,29 @@
 {
-  // Configura tamanho e família da fonte
-  "editor.fontSize": 14,
-  "editor.lineHeight": 20,
-  "editor.fontFamily": "Fira Code",
+  "editor.fontFamily": "JetBrains Mono",
+  "editor.fontSize": 15,
+  "editor.lineHeight": 22,
   "editor.fontLigatures": false,
-
-  // Aplica um sinal visual na esquerda da linha selecionada
-  "editor.renderLineHighlight": "gutter",
-  "editor.renderWhitespace": "selection",
-
-  // Aumenta a fonte do terminal
-  "terminal.integrated.fontSize": 13,
-
-  "eslint.autoFixOnSave": true,
-  "eslint.validate": [
-    {
-    "language": "javascript",
-    "autoFix": true
-    },
-    {
-    "language": "javascriptreact",
-    "autoFix": true
-    },
-    {
-    "language": "typescript",
-    "autoFix": true
-    },
-    {
-    "language": "typescriptreact",
-    "autoFix": true
-    }
-  ],
-
-  "files.trimTrailingWhitespace": true,
-
-  // Define o tema dos ícones na sidebar
-  "workbench.iconTheme": "material-icon-theme",
-  "workbench.startupEditor": "newUntitledFile",
+  "editor.fontWeight": 800,
   "editor.tabSize": 2,
-  "window.zoomLevel": 0.3,
-  "git.ignoreMissingGitWarning": true,
-
-  //Theme
-  "workbench.colorTheme": "One Dark Pro",
-  "oneDarkPro.vivid": true,
-  "oneDarkPro.editorTheme": "Onedark Pro",
-
-  // Live Sass
-  "liveSassCompile.settings.excludeList": [
-    "**/node_modules/**",
-    ".vscode/**"
-  ],
-  "liveSassCompile.settings.generateMap": false,
-
-  "files.associations": {
-    "*.template": "liquid"
-  },
-
-  //Emmet
-  "emmet.includeLanguages": {
-    "javascript": "jsx",
-  },
-  "emmet.includeLanguages": {
-    "liquid": "html"
-  },
-
-  "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
-  },
+  "editor.renderLineHighlight": "gutter",
+  "editor.occurrencesHighlight": false,
+  "editor.foldingHighlight": false,
   "editor.matchBrackets": "near",
   "editor.acceptSuggestionOnEnter": "off",
-  "editor.foldingHighlight": false,
-  "editor.occurrencesHighlight": false,
+  "editor.acceptSuggestionOnCommitCharacter": false,
 
-  "todo-tree.general.tags": [
-    "TODO",
-    "QUESTION"
-  ],
+  "terminal.integrated.fontSize": 13,  
+               
+  "workbench.colorTheme": "One Dark Pro",
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.iconTheme": "material-icon-theme",
+
+  "oneDarkPro.vivid": true,
+  "window.menuBarVisibility": "toggle",
+  "window.zoomLevel": 0,
+  "explorer.compactFolders": false,
+
+  "files.exclude": {
+    "node_modules/": true    
+  },  
 }
